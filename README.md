@@ -2,7 +2,7 @@
 但是需要用户处理reader读失败。
 
 
-x86是TSO内存模型，内存屏障LFENCE/SFENCE相当于nop
+x86是TSO内存模型，wmb/rmb相当于nop
 https://www.zhihu.com/question/29465982
 https://www.cnblogs.com/sunddenly/articles/15389917.html
 
